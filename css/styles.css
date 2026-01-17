@@ -618,25 +618,8 @@ p {
 
 /* Close button — base */
 .modal-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-
-  border: 1px solid rgba(0, 0, 0, 0.1); /* <-- як просить чекер */
-  border-radius: 50%;
-
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -1001,3 +984,17 @@ p {
   fill: #ffffff;
 }
 
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+}
+
+.footer-subscribe-btn {
+  border: none;
+  /* інші стилі */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
