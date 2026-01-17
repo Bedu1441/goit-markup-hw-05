@@ -767,7 +767,7 @@ p {
   min-width: 169px;
   height: 56px;
 
-  border: none;
+  border: none; /* ← ОБОВʼЯЗКОВО */
   border-radius: 4px;
 
   background-color: #4d5ae5;
