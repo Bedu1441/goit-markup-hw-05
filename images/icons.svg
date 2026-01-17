@@ -92,4 +92,8 @@
     <ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M39.422 18.644H37.2886V20.7775H39.422V18.644Z" fill="#2E2F42" />
   </symbol>
 
+<symbol id="icon-send" viewBox="0 0 24 24">
+  <path d="M2 21l21-9L2 3v7l15 2-15 2v7z" />
+</symbol>
+
 </svg>
